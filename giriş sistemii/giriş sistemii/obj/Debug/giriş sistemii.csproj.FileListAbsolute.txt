@@ -1,0 +1,10 @@
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\bin\Debug\giriş sistemii.exe.config
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\bin\Debug\giriş sistemii.exe
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\bin\Debug\giriş sistemii.pdb
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş sistemii.csprojAssemblyReference.cache
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş_sistemii.Form1.resources
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş_sistemii.Form2.resources
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş_sistemii.Properties.Resources.resources
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş sistemii.csproj.GenerateResource.cache
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş sistemii.exe
+C:\Users\Ali Emre\source\repos\giriş sistemii\giriş sistemii\obj\Debug\giriş sistemii.pdb
